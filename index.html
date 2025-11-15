@@ -261,6 +261,10 @@ document.addEventListener('DOMContentLoaded', () => {
 <input type="text" id="PHNOE" name="PHNOE" required value="01516010811">
 <button type="button" class="copy-button" onclick="copyText('PHNOE')">Copy</button>
 
+<label for="PHNOE2">Mobile Number</label>
+<input type="text" id="PHNOE2" name="PHNOE2" required value="01786945337">
+<button type="button" class="copy-button" onclick="copyText('PHNOE2')">Copy</button>
+
 <label for="EmailName">Email</label>
 <input type="text" id="EmailName" name="EmailName" required value="arafat.ph.bd@gmail.com">
 <button type="button" class="copy-button" onclick="copyText('EmailName')">Copy</button>
@@ -274,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <button type="button" class="copy-button" onclick="copyText('CareOf')">Copy</button>
 
 <label for="Vill">Village/ Road/ House/ Flat</label>
-<input type="text" id="Vill" name="Vill" required value="Kamat Para">
+<input type="text" id="Vill" name="Vill" required value="Kamatpara">
 <button type="button" class="copy-button" onclick="copyText('Vill')">Copy</button>
 
 <label for="District">District</label>
@@ -303,17 +307,18 @@ document.addEventListener('DOMContentLoaded', () => {
 </form>
 </div>
 
-<!-- Educational Info -->
+<!-- School Educational Info -->
 <div class="edu-container">
-<div class="edu-header">Educational Info</div>
+<div class="edu-header">School Educational Info</div>
 <table>
   <thead>
     <tr>
       <th>Examination</th>
-      <th>Board/University</th>
+      <th>Board</th>
       <th>Roll</th>
+      <th>Reg.</th>
       <th>Result</th>
-      <th>Group/Subject</th>
+      <th>Group</th>
       <th>Year</th>
       <th>Duration</th>
     </tr>
@@ -323,28 +328,21 @@ document.addEventListener('DOMContentLoaded', () => {
       <td>S.S.C</td>
       <td>Dinajpur</td>
       <td class="copyable">220604</td>
+      <td class="copyable">1317767379</td>
       <td class="copyable">GPA 4.61 (Out of 5)</td>
       <td>Science</td>
       <td>2016</td>
-      <td>N/A</td>
+      <td>2 Years</td>
     </tr>
     <tr>
       <td>H.S.C</td>
       <td>Dinajpur</td>
       <td class="copyable">745356</td>
+      <td class="copyable">1317767379</td>
       <td class="copyable">GPA 3.33 (Out of 5)</td>
       <td>Humanities</td>
       <td>2019</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td>Hon's</td>
-      <td>National University</td>
-      <td class="copyable">3135505</td>
-      <td class="copyable">CGPA 2.63 (Out of 4)</td>
-      <td>Economics</td>
-      <td>2023</td>
-      <td>4 Years</td>
+      <td>2 Years</td>
     </tr>
   </tbody>
 </table>
@@ -354,6 +352,58 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </div>
 
+
+
+
+
+
+
+
+
+<!-- University Educational Info -->
+<div class="edu-container">
+<div class="edu-header">University Educational Info</div>
+<table>
+  <thead>
+    <tr>
+      <th>Examination</th>
+      <th>University</th>
+      <th>Roll</th>
+      <th>Reg.</th>
+      <th>Result</th>
+      <th>Subject</th>
+      <th>Year</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B.S.S (Honour's)</td>
+      <td>National University</td>
+      <td class="copyable">3135505</td>
+      <td class="copyable">19222204076</td>
+      <td class="copyable">CGPA 2.63 (Out of 4)</td>
+      <td>Economics</td>
+      <td class="copyable">2023</td>
+      <td>4 Years</td>
+    </tr>
+    <tr>
+      <td>M.S.S (Master's)</td>
+      <td>National University</td>
+      <td class="copyable">-</td>
+      <td class="copyable">-</td>
+      <td class="copyable">CGPA - (Out of 4)</td>
+      <td>Economics</td>
+      <td class="copyable">-</td>
+      <td>1 Years</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
 
 
 
@@ -380,5 +430,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
-
 
